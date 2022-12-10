@@ -12,7 +12,7 @@ while not number_1.isdigit():
     #if user input is not a integer, ask for a new input
     number_1 = input("Please input an integer for the first number:")
 
-# repeats above code fort number_2
+# repeats above code for number_2
 number_2 = input("Please input Second number: ")
 while not number_2.isdigit():
     number_2 = input("Please input an integer for the first number:")
@@ -30,7 +30,7 @@ calc_factors(number_1)
 calc_factors(number_2)
 
 # Checks for items in each set that match, then they get sorted from lowest to highest
-common_factors = sorted(one_factors.intersection(two_factors))
+common_factors = one_factors.intersection(two_factors)
 #Gets the highest number in the set
 HCF = max(common_factors)
 

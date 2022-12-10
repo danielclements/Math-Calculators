@@ -1,5 +1,6 @@
 import math 
 
+# Input a number to reveal if it is a Prime number
 stack = []
 
 while True:
